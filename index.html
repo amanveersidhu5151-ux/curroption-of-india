@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case File: Corruption in India</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Paper texture backdrop -->
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<nav class="tabs" id="tabs">
+  <div class="tabs__label">CASE FILE</div>
+  <button class="tab active" data-target="overview">Overview</button>
+  <button class="tab" data-target="causes">Causes</button>
+  <button class="tab" data-target="types">Types</button>
+  <button class="tab" data-target="effects">Effects</button>
+  <button class="tab" data-target="response">Response</button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="overview">
+  <div class="hero__inner">
+    <p class="eyebrow">FILE No. IN — 2025/CPI · STATUS: OPEN INVESTIGATION</p>
+    <h1 class="hero__title">Corruption<br>in India</h1>
+    <p class="hero__sub">A student case file examining the causes, forms, and consequences of public
+      corruption in the Republic of India — compiled from official indices and government records.</p>
+
+    <div class="ledger">
+      <div class="ledger__row">
+        <span class="ledger__k">CPI Rank 2025</span>
+        <span class="ledger__v">91<span class="ledger__of">/182</span></span>
+      </div>
+      <div class="ledger__row">
+        <span class="ledger__k">CPI Score</span>
+        <span class="ledger__v">39<span class="ledger__of">/100</span></span>
+      </div>
+      <div class="ledger__row">
+        <span class="ledger__k">Prior Rank (2024)</span>
+        <span class="ledger__v">96<span class="ledger__of">/180</span></span>
+      </div>
+    </div>
+    <p class="cite">Source: Transparency International, Corruption Perceptions Index 2025</p>
+  </div>
+
+  <div class="stamp" id="stamp">
+    <div class="stamp__ring">
+      <span>UNDER REVIEW</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== DEFINITION STRIP ===== -->
+  <section class="strip">
+    <p class="redact-line" data-redact>Corruption is the abuse of entrusted public power for private gain — through bribery, embezzlement, favoritism, or the deliberate manipulation of rules meant to serve the public.</p>
+  </section>
+
+  <!-- ===== CAUSES ===== -->
+  <section class="dossier" id="causes">
+    <div class="dossier__head">
+      <h2 class="redact-line" data-redact>Exhibit A — Root Causes</h2>
+      <p class="dossier__intro">Why corruption persists across Indian institutions, from local offices to national politics.</p>
+    </div>
+    <div class="entries" id="causes-list"></div>
+  </section>
+
+  <!-- ===== TYPES ===== -->
+  <section class="dossier dossier--alt" id="types">
+    <div class="dossier__head">
+      <h2 class="redact-line" data-redact>Exhibit B — Forms It Takes</h2>
+      <p class="dossier__intro">Corruption is not one act but a family of related offenses, each with its own method.</p>
+    </div>
+    <div class="entries" id="types-list"></div>
+  </section>
+
+  <!-- ===== EFFECTS ===== -->
+  <section class="dossier" id="effects">
+    <div class="dossier__head">
+      <h2 class="redact-line" data-redact>Exhibit C — Consequences</h2>
+      <p class="dossier__intro">The measurable damage corruption does to economy, society, and governance.</p>
+    </div>
+    <div class="entries" id="effects-list"></div>
+  </section>
+
+  <!-- ===== QUIZ / VERIFY ===== -->
+  <section class="verify">
+    <div class="dossier__head">
+      <h2 class="redact-line" data-redact>Verify the Record</h2>
+      <p class="dossier__intro">Read each statement and mark it TRUE or FALSE. Your file will be stamped accordingly.</p>
+    </div>
+    <div id="quiz"></div>
+    <div class="verify__score" id="quiz-score">0 of 0 verified correctly</div>
+  </section>
+
+  <!-- ===== RESPONSE ===== -->
+  <section class="dossier dossier--alt" id="response">
+    <div class="dossier__head">
+      <h2 class="redact-line" data-redact>Exhibit D — Institutional Response</h2>
+      <p class="dossier__intro">Mechanisms India has built to detect, expose, and prosecute corruption.</p>
+    </div>
+    <div class="entries" id="response-list"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><strong>Sources:</strong> Transparency International, Corruption Perceptions Index 2025 (transparency.org) ·
+     Central Vigilance Commission (cvc.gov.in) · Right to Information Act, 2005 · Prevention of Corruption Act, 1988 (amended 2018).</p>
+  <p class="footer__note">Student project · HTML, CSS &amp; JavaScript · For academic use.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
